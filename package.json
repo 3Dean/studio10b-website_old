@@ -1,5 +1,5 @@
 {
-  "name": "studio10benvironments",
+  "name": "studio10_website_old",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,16 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3Dean/studio10benvironments.git"
+    "url": "git+https://github.com/3Dean/studio10b-website_old.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/3Dean/studio10benvironments/issues"
+    "url": "https://github.com/3Dean/studio10b-website_old/issues"
   },
-  "homepage": "https://github.com/3Dean/studio10benvironments#readme",
+  "homepage": "https://github.com/3Dean/studio10b-website_old#readme",
   "dependencies": {
     "express": "^5.1.0"
   },
