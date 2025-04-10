@@ -1,6 +1,5 @@
 # Dependency folders
 node_modules/
-dist/
 
 # System/Editor files
 .DS_Store

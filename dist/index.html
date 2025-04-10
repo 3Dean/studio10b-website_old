@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Studio 10b</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/add.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js/videoplaceholder.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand  smooth-scroll" href="#videoHeader">
+          <img src="images/logo40hgr.svg" alt="Logo" width="169.99" height="40.75"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#workSection">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#servicesSection">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#aboutSection">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link smooth-scroll" href="#contactSection">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Video for larger screens -->
+    <div id="videoHeader" class="d-none d-md-block video-header">
+      <video id="myVideo" autoplay loop muted>
+        <source src="https://deanyeager.s3.amazonaws.com/PortfolioHubs.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-overlay-text">
+        <h1 class="display-1">Immersive by Design:</h1>
+        <p>Pioneering 3D Web Experiences</p>
+		  <a class="smooth-scroll" href="#workSection"><img src="images/arrow.svg" alt="View Work" width="75" height="75"></a>
+      </div>
+    </div>
+
+    <!-- Image for smaller screens -->
+    <div class="d-block d-md-none video-header">
+      <a data-fancybox href="https://deanyeager.s3.amazonaws.com/PortfolioHubs.mp4">
+        <img src="images/collagemobile12808501920.jpg" alt="Video Placeholder" class="img-fluid">
+      </a>
+    </div>
+
+    <div id="workSection" class="work-section pt-5">
+      <div class="container">
+        <h1>My Work</h1>
+        <p>Welcome to the digital canvas of Dean Yeager, a visionary artist and web innovator. I specialize in creating immersive 3D environments for the web, transforming browser experiences with real-time, interactive art. Leveraging my expertise in WebXR technologies and a passion for VR/AR, I craft unique digital realms for forward-thinking clients looking to elevate their online presence. Step into a world where art meets technology, and experience the future of web interaction.</p>
+      </div>
+    </div>
+
+    <div id="portfolioSection" class="portfolio-section pt-3 pb-extra">
+      <div class="container">
+        <div class="row no-gutters">
+          <!-- Portfolio Items -->
+
+          <!-- ... 0 ... -->
+        <div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/louievolve.html"><img src="https://deanyeager.s3.us-east-1.amazonaws.com/mozillahubs/500x418/louievolve500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">LouiEvolve</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+			<!-- ... 1 ... -->
+        <div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/adam.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/adam500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">ADAM 4 Artists</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+        <!-- ... 2 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/arcade.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/arcade500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Human Guild Arcade</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		<!-- ... 3 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/beach.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/beach500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Marma J Beach Party</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		<!-- ... 4 ... -->
+        <div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/dragon.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/dragon500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Root Island Dragon</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+        <!-- ... 5 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/fashion.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/fashion500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Fashion Show Runway</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		<!-- ... 6 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/lasalle24.html"><img src="https://deanyeager.s3.us-east-1.amazonaws.com/mozillahubs/500x418/lasalle24500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">LaSalle Signature 24</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+				<!-- ... 7 ... -->
+        <div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/theater.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/movie500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Animaze Awards Theater</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+        <!-- ... 8 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/muti.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/muti500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Muti Gallery</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		<!-- ... 9 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/neareth.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/nearcon500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">NEAR EthDenver 2023</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		<!-- ... 10 ... -->
+        <div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/nearhub.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/nearhub500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">NearHub</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+        <!-- ... 11 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/ows.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/ows500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">OWS Theater</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		<!-- ... 12 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/radio.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/radio500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Metaverse Radio</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		 <!-- ... 13 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/svara.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/svara500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">SVARA DAO</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+		<!-- ... 14 ... -->
+		<div class="col-md-4 portfolio-item">
+            <div class="image-wrapper">
+                <a href="html/thespians.html"><img src="https://deanyeager.s3.amazonaws.com/mozillahubs/500x418/thespians500.jpg" class="img-fluid" alt="Portfolio piece"></a>
+                <div class="overlay-text">Thespians DAO</div>
+            </div>
+            <!-- Repeat this block for each portfolio piece -->
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="servicesSection" class="what-i-do-section pt-extra pb-extra">
+      <!-- Services Section Content -->
+		<div class="container">
+			<h1>What I do</h1>
+
+			<h4>Development: Enhanced Virtual Collaboration and Learning</h4>
+			<p>Leverage the power of Mozilla Hubs to create dynamic 3D web experiences. Our platform facilitates real-time interaction for multiple users, ideal for virtual collaboration and immersive learning environments.</p>
+
+			<h4>Art &amp; Design: Elevating 3D Visualization</h4>
+			<p>Specializing in 3D environment modeling and materials creation, we bring your concepts to life with meticulously crafted 3D objects, optimized for real-time rendering. Our services include GLB exports with advanced PBR materials, ensuring high-quality visuals. Tailor your experience with custom-designed rooms for special events, each environment crafted to deliver a unique and engaging experience.</p>
+		</div>
+    </div>
+
+    <div id="aboutSection" class="about-section pt-extra pb-extra">
+      <!-- About Section Content -->
+		<div class="container">
+			<h1>Who I am</h1>
+			
+			<p>Studio 10b has been at the forefront of creative services for over ten years, delivering exceptional design solutions to businesses across various sectors. With my roots deeply embedded in website design, logo design, print collateral, engaging social media content, and dynamic video production, I have expanded my expertise to encompass various immersive 3D projects. Studio 10b blends creativity with strategic thinking to bring your brand's vision to life.</p>
+		</div>
+    </div>
+
+    <div id="contactSection" class="contact-section pt-extra pb-extra">
+      <!-- Contact Section Content -->
+		<div class="container">
+			<h1>Reach Out to Innovate</h1>
+			
+			<p>Thank you for your interest in Studio 10b. Please email me at dean@studio10b.com to discuss your next amazing project.</p>
+		</div>
+    </div>
+
+    <footer>
+		<div class="contact-us-section">
+			<div class="container">
+				<div class="row">
+					<!-- Column 1: Logo -->
+					<div class="col-md-3 pb-3">
+						<h5>Studio 10b LLC</h5>
+					</div>
+					<!-- Column 2: Address -->
+					<div class="col-md-3 pb-5">
+						<p>PO BOX 693 <br>Newtown, CT 06470 <br>US</p>
+					</div>
+					<!-- Column 3: Navigation -->
+					<div class="col-md-3 pb-5">
+						<ul class="list-unstyled">
+							<li><a href="#videoHeader" class="smooth-scroll">Home</a></li><br>
+							<li><a href="#workSection" class="smooth-scroll">Work</a></li><br>
+							<li><a href="#servicesSection" class="smooth-scroll">Services</a></li><br>
+							<li><a href="#aboutSection" class="smooth-scroll">About</a></li><br>
+							<li><a href="#contactSection" class="smooth-scroll">Contact</a></li>
+						</ul>
+					</div>
+					<!-- Column 4: Follow on Twitter -->
+					<div class="col-md-3">
+						<h5>Follow on Twitter</h5>
+						<a href="https://twitter.com/Studio_10b" target="_blank">@studio_10b</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	  <footer class="footer bg-light">
+		  <div class="container text-center">
+			  <span class="text-muted">&copy; <span id="currentYear"></span> Studio 10b LLC. All Rights Reserved.</span>
+		  </div>
+	  </footer>
+	  </footer>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+	  <script src="js/main.js"></script>
+	  
+  </body>
+</html>

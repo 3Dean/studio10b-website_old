@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+h1 {
+	line-height: 2.7em;
+}
+
+p {
+	padding-bottom: 30px;
+}
+
+h4 {
+	line-height: 1.5em;
+	padding-bottom: 10px;
+}
+.navbar {
+    background-color: #f8f9fa; /* Change to your preferred color */
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.pt-extra {
+    padding-top: 11rem; /* or any value that suits your design */
+}
+
+.pb-extra {
+    padding-bottom: 11rem; /* or any value that suits your design */
+}
+
+.pt-extra2 {
+    padding-top: 5rem; /* or any value that suits your design */
+}
+
+.video-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-header video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-header img {
+    width: 100%;
+}
+
+.video-overlay-text {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    color: white; /* Adjust text color as needed */
+    text-align: center;
+    /* Add any additional styling needed for the text */
+	font-size: 2em;
+	}
+
+.video-overlay-text h1 {
+	}
+
+.work-section {
+	}
+
+.about-section {
+	color: #FFFFFF;
+	background-image: url("../images/bg_mtn_657.svg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.portfolio-item .image-wrapper {
+    position: relative;
+    overflow: hidden;
+	margin: 0;
+}
+
+.portfolio-item {
+	padding: 0;
+}
+
+.portfolio-item img {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item .image-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-item .image-wrapper:hover .overlay-text {
+    opacity: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.portfolio-section {
+}
+
+/* Remove bottom margin from rows */
+.portfolio-section .row {
+    margin-bottom: 0;
+}
+
+/* If necessary, adjust the padding of columns as well */
+.portfolio-section .col-md-4 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+	transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+	transform: scale(1.1); /* Adjust scale value as needed */
+}
+
+.image-container .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.what-i-do-section {
+	background-image: linear-gradient(to bottom, #FFFFFF, #FCEAEA);
+}
+
+
+.what-i-do-section h4 {
+	font-size: 1.5em;
+}
+
+.contact-section {
+	background: #383644;
+	color: #B9B7C6;
+	background-image: url("../images/communicationBG.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.contact-us-section {
+	background: #212121;
+	color: #B9B7C6;
+	padding-bottom: 500px;
+}
+
+.contact-us-section h5 {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+.contact-us-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contact-us-section ul li a {
+    color: #B9B7C6; /* Or any color you prefer */
+    text-decoration: none;
+}
+
+.contact-us-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    padding: 20px 0;
+    background-color: #191E23; 
+}
+
+.footer .text-muted {
+    color: #6c757d;
+}
+
+/* This CSS will apply to devices with width less than 768px (typical breakpoint for mobile devices) */
+@media (max-width: 767px) {
+    #myVideo {
+        display: none;
+    }
+    #videoPlaceholder {
+        display: block;
+        cursor: pointer; /* To indicate the image is clickable */
+    }
+}
+
+/* This CSS will apply to devices with width greater than or equal to 768px (desktops and tablets) */
+@media (min-width: 768px) {
+    #myVideo {
+        display: block;
+    }
+    #videoPlaceholder {
+        display: none;
+		
+    }
+}
+
+/* This CSS will apply to devices with width less than 768px (typical breakpoint for mobile devices) */
+@media (max-width: 767px) {
+	.video-header {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 767px) {
+	.video-header video {
+		width: 100%;
+		height: auto;
+	}
+}
+
