@@ -1,0 +1,38 @@
+{
+  "name": "studio10benvironments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "copy:html": "mkdir -p dist/html && cp src/html/*.html dist/html/ && cp src/index.html dist/",
+    "copy:css": "mkdir -p dist/css && cp src/css/*.css dist/css/",
+    "copy:js": "mkdir -p dist/js && cp src/js/*.js dist/js/",
+    "copy:images": "mkdir -p dist/images && cp -r src/images/* dist/images/",
+    "build": "npm-run-all clean copy:*",
+    "dev": "http-server src",
+    "preview": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3Dean/studio10benvironments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/3Dean/studio10benvironments/issues"
+  },
+  "homepage": "https://github.com/3Dean/studio10benvironments#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "http-server": "^14.1.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1"
+  }
+}

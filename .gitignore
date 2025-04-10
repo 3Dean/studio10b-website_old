@@ -1,0 +1,18 @@
+# Dependency folders
+node_modules/
+dist/
+
+# System/Editor files
+.DS_Store
+.vscode/
+*.log
+
+# Output or build folders
+*.zip
+*.tar.gz
+
+# Large files
+*.mp4
+*.mov
+*.avi
+public/videos/
