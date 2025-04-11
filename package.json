@@ -27,12 +27,21 @@
   },
   "homepage": "https://github.com/3Dean/studio10b-website_old#readme",
   "dependencies": {
+    "aws-amplify": "^6.14.2",
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.14.3",
+    "@aws-amplify/backend-cli": "^1.5.0",
+    "aws-cdk": "^2.1003.0",
+    "aws-cdk-lib": "^2.180.0",
     "browser-sync": "^3.0.4",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.2",
     "http-server": "^14.1.1",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
   }
 }
